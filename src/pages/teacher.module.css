@@ -1,0 +1,43 @@
+.main {
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+.videoWrapper {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  margin: 3vw 0;
+}
+
+.img {
+  border-radius: .25em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 4vw auto;
+  display: block;
+  max-width: 14rem;
+  width: 100%;
+}
+
+.video {
+  border-radius: .25em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 38.75em) {
+  .main {
+    margin: 0 auto 0 12vw;
+  }
+
+  .img {
+    float: left;
+    margin: 0 2vw 0 -10vw;
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "hillcitystudiocom-20190202224236-authRole",
+            "UnauthRoleArn": "arn:aws:iam::851671576394:role/hillcitystudiocom-20190202224236-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::851671576394:role/hillcitystudiocom-20190202224236-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "hillcitystudiocom-20190202224236-deployment",
+            "UnauthRoleName": "hillcitystudiocom-20190202224236-unauthRole",
+            "StackName": "hillcitystudiocom-20190202224236",
+            "StackId": "arn:aws:cloudformation:us-east-1:851671576394:stack/hillcitystudiocom-20190202224236/bf995cf0-2765-11e9-a738-12a109124258"
+        }
+    }
+}
