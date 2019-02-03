@@ -52,7 +52,7 @@ const TeacherPage = ({ data }) => (
       <StyledVideo />
 
       <p>
-        After spending a decade on the West Coast where she taught piano at “Suzuki Olympia”, she has recently returned to the Lynchburg area, and is opening a new studio in her home in Sandusky . She now offers classes to students of all ages in Lynchburg, including one-on-one piano instruction, Kodály-style group singing and music exploration/enrichment classes, voice lessons for children, recitals, and group music sessions throughout the year. She has 3 children of her own, with a 4th due in April. All 3 of her children play the piano, as well as other instruments. They enjoy solos, duets, playing by ear, improvisation,  performing in recitals, playing for the elderly, singing, and acting as part of their homeschool.
+        After spending a decade on the West Coast where she taught piano at “Suzuki Olympia”, she has recently returned to the Lynchburg area, and is opening a new studio in her home in Sandusky. She now offers classes to students of all ages in Lynchburg, including one-on-one piano instruction, Kodály-style group singing and music exploration/enrichment classes, voice lessons for children, recitals, and group music sessions throughout the year. She has 3 children of her own, with a 4th due in April. All 3 of her children play the piano, as well as other instruments. They enjoy solos, duets, playing by ear, improvisation,  performing in recitals, playing for the elderly, singing, and acting as part of their homeschool.
       </p>
     </main>
   </Layout>
