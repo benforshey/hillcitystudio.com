@@ -23,6 +23,9 @@
     "typeface-poppins": "0.0.54",
     "typeface-roboto": "0.0.54"
   },
+  "engines": {
+    "node": "^12.0.0"
+  },
   "keywords": [
     "gatsby"
   ],
