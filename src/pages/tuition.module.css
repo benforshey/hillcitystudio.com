@@ -1,0 +1,32 @@
+.main {
+  margin: 0 auto;
+  max-width: 35em;
+}
+
+.img {
+  border-radius: .25em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 4vw auto;
+  display: block;
+  max-width: 14rem;
+  width: 100%;
+}
+
+.contact {
+  background-color: #F9F6EF;
+  clear: both;
+  font-style: italic;
+  padding: 3vw 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 38.75em) {
+  .main {
+    margin: 0 auto 0 12vw;
+  }
+
+  .img {
+    float: left;
+    margin: 0 2vw 1.5em -10vw;
+  }
+}
