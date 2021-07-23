@@ -62,8 +62,6 @@ const TeacherPage = ({ data }) => (
         studio environment through singing, music games, and group classes.
       </p>
 
-      {/* <StyledVideo /> */}
-
       <p>
         After spending a decade on the West Coast where she taught piano at
         “Suzuki Olympia”, she has recently returned to the Lynchburg area, and
