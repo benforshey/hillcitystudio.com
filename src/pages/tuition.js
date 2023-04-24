@@ -31,14 +31,10 @@ const SecondPage = ({ data }) => (
       <p>Pay by Session or by Month</p>
       <ul>
         <li>
-          Session Payments of $420
-          <br />
-          (roughly $25 / lesson)
+          Session Payments of $425
         </li>
         <li>
-          Monthly Payments of $120
-          <br />
-          (roughly $30/ lesson)
+          Monthly Payments of $125
         </li>
       </ul>
 
@@ -51,11 +47,10 @@ const SecondPage = ({ data }) => (
 
       <h3>Every Year Your Tuition Pays For</h3>
       <ul>
-        <li>45 once-a-week private lessons</li>
+        <li>44 once-a-week private lessons</li>
         <li>unlimited observation of studio lessons</li>
         <li>10 once-a-month group classes</li>
         <li>2 formal recitals</li>
-        <li>1 family Christmas play-in</li>
       </ul>
     </main>
   </Layout>
