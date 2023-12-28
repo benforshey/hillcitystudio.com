@@ -30,12 +30,8 @@ const SecondPage = ({ data }) => (
       <h3>Tuition Rates & Options</h3>
       <p>Pay by Session or by Month</p>
       <ul>
-        <li>
-          Session Payments of $425
-        </li>
-        <li>
-          Monthly Payments of $125
-        </li>
+        <li>Session Payments of $440</li>
+        <li>Monthly Payments of $135</li>
       </ul>
 
       <h3>What is a Session?</h3>
