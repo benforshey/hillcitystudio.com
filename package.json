@@ -24,7 +24,7 @@
     "typeface-roboto": "0.0.54"
   },
   "engines": {
-    "node": "14.21.3"
+    "node": "24.6.0"
   },
   "keywords": [
     "gatsby"
