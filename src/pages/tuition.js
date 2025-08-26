@@ -30,8 +30,8 @@ const SecondPage = ({ data }) => (
       <h3>Tuition Rates & Options</h3>
       <p>Pay by Session or by Month</p>
       <ul>
-        <li>Session Payments of $440</li>
-        <li>Monthly Payments of $135</li>
+        <li>Session Payments of $525</li>
+        <li>Monthly Payments of $165</li>
       </ul>
 
       <h3>What is a Session?</h3>
@@ -43,9 +43,9 @@ const SecondPage = ({ data }) => (
 
       <h3>Every Year Your Tuition Pays For</h3>
       <ul>
-        <li>44 once-a-week private lessons</li>
+        <li>40 once-a-week private lessons</li>
         <li>unlimited observation of studio lessons</li>
-        <li>10 once-a-month group classes</li>
+        <li>7 once-a-month group classes</li>
         <li>2 formal recitals</li>
       </ul>
     </main>
