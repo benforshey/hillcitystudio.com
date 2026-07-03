@@ -1,0 +1,6 @@
+node_modules/
+_site/
+.cache/
+
+# Large media lives on files.com, not in git (see README)
+media-upload/

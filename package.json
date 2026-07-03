@@ -1,0 +1,17 @@
+{
+  "name": "hillcitystudio.com",
+  "private": true,
+  "description": "Suzuki Method piano lessons in Lynchburg, VA.",
+  "type": "module",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
