@@ -4,3 +4,6 @@ _site/
 
 # Large media lives on files.com, not in git (see README)
 media-upload/
+
+# Claude Code personal settings
+.claude/settings.local.json
