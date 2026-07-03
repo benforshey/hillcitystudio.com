@@ -16,6 +16,7 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({ "src/media": "/" });
+  eleventyConfig.addPassthroughCopy({ "src/sw.js": "sw.js" });
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/fonts");
 
