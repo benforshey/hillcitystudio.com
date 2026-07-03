@@ -12,7 +12,8 @@
       "Bash(git remote *)",
       "Bash(rtk git *)",
       "Bash(git ls-remote *)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(rtk npm *)"
     ]
   }
 }
