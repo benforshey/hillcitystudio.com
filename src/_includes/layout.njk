@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ title }} | {{ site.title }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/social__default--square.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="theme-color" content="#C8AD55">
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="visually-hidden">{{ site.title }}</h1>
+      <p class="visually-hidden">{{ site.byline }}</p>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>home</a></li>
+          <li><a href="/method/"{% if page.url == "/method/" %} aria-current="page"{% endif %}>method</a></li>
+          <li><a href="/teacher/"{% if page.url == "/teacher/" %} aria-current="page"{% endif %}>teacher</a></li>
+          <li><a href="/tuition/"{% if page.url == "/tuition/" %} aria-current="page"{% endif %}>tuition</a></li>
+        </ul>
+      </nav>
+      <figure class="piano">
+        {% include "svg/piano.svg" %}
+      </figure>
+    </header>
+    <div class="content">
+      {{ content | safe }}
+    </div>
+    <footer class="site-footer">
+      {% include "svg/lynchburg.svg" %}
+    </footer>
+  </body>
+</html>
