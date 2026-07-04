@@ -5,25 +5,9 @@
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/fonts/poppins-latin-400-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url('/fonts/poppins-latin-500-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('/fonts/poppins-latin-600-normal.woff2') format('woff2');
 }
 
 @font-face {
@@ -127,8 +111,13 @@ a {
   white-space: nowrap;
 }
 
-a:focus {
+a:focus:not(:focus-visible) {
   outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid #353122;
+  outline-offset: 4px;
 }
 
 a:not([data-button])::after {
@@ -159,6 +148,34 @@ a:not([data-button])::after {
   width: 1px;
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Visually hidden until keyboard-focused, then pinned over the header. */
+.skip-link {
+  background-color: #F9F6EF;
+  left: 50%;
+  padding: .5em 1em;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -250%);
+  z-index: 1;
+}
+
+.skip-link:focus {
+  transform: translate(-50%, .5em);
+}
+
+.content:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after,
+  ::details-content {
+    transition-duration: .01ms !important;
+  }
 }
 
 @media screen and (min-width: 25em) {
@@ -201,7 +218,6 @@ a:not([data-button])::after {
 .site-nav {
   flex: 0 1 auto;
   font-size: calc(.75em + 1vw);
-  font-weight: 600;
   margin-right: 2vw;
   text-align: right;
 }
@@ -310,8 +326,12 @@ a:not([data-button])::after {
 .card:hover,
 .card:focus {
   box-shadow: 0 6px 9px rgba(0, 0, 0, 0.16), 0 6px 9px rgba(0, 0, 0, 0.23);
-  outline: none;
   transform: translateY(-.125em);
+}
+
+.card:focus-visible {
+  outline: 3px solid #353122;
+  outline-offset: 3px;
 }
 
 .card img {
